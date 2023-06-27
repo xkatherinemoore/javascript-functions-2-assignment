@@ -65,3 +65,8 @@ const books = [
 ];
 
 
+function filterByGenre(books, genre) {
+  return books.filter(function(book) {
+    return genre === book.genre;
+  })
+}
